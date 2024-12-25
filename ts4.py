@@ -72,7 +72,7 @@ options = st.sidebar.radio("Select a section:",
 # Home Section with Hero Image
 if options == "Home":
     st.markdown("<h1 class='title'>Welcome to Peatland Monitoring</h1>", unsafe_allow_html=True)
-    st.image("/workspaces/Peatland_Monitoring/peatland-7.jpg", use_container_width=True)  # Replace with actual image URL
+    st.image("https://github.com/SWASTIKA3011/Peatland_Monitoring/blob/a2c89b75907cc39ab75a4446b7f9d01409e6df59/peatland-7.jpg", use_container_width=True)  # Replace with actual image URL
     st.write("Explore our resources and analyses related to peatland health and restoration efforts.")
     
 # Peatland Knowledge Base Section
@@ -119,9 +119,9 @@ elif options == "Spatial and Clustering Analysis":
     st.markdown("<h2 class='header'>Spatial and Clustering Analysis</h2>", unsafe_allow_html=True)
     
     # Replace with actual image paths or URLs
-    st.image("/workspaces/Peatland_Monitoring/ndmi_diff_map.png", caption="NDMI Difference Map")
-    st.image("/workspaces/Peatland_Monitoring/ndwi_diff_map.png", caption="NDWI Difference Map")
-    st.image("/workspaces/Peatland_Monitoring/ndvi_diff_map.png", caption="NDVI Difference Map")
+    st.image("https://github.com/SWASTIKA3011/Peatland_Monitoring/blob/a2c89b75907cc39ab75a4446b7f9d01409e6df59/ndmi_diff_map.png", caption="NDMI Difference Map")
+    st.image("https://github.com/SWASTIKA3011/Peatland_Monitoring/blob/a2c89b75907cc39ab75a4446b7f9d01409e6df59/ndwi_diff_map.png", caption="NDWI Difference Map")
+    st.image("https://github.com/SWASTIKA3011/Peatland_Monitoring/blob/a2c89b75907cc39ab75a4446b7f9d01409e6df59/ndvi_diff_map.png", caption="NDVI Difference Map")
     
 # Footer with Resources
 st.markdown("""
